@@ -9,12 +9,12 @@ const weeklyProducts = weeklyDropIds
 export default function WeeklyDrop() {
   return (
     <section id="drops" className="section-pad relative overflow-hidden">
-      <div className="absolute inset-x-0 top-1/2 h-px bg-gradient-to-r from-transparent via-bravura-purple to-transparent opacity-70" />
+      <div className="absolute inset-x-0 top-1/2 h-px bg-gradient-to-r from-transparent via-bravura-orange to-transparent opacity-45" />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="section-heading">
           <span>Drop da Semana</span>
           <h2>As peças mais desejadas da semana.</h2>
-          <p>Três escolhas premium para garantir agora antes do próximo giro.</p>
+          <p>Três escolhas premium para garantir antes do apito inicial.</p>
         </div>
 
         <div className="grid gap-5 lg:grid-cols-3">
@@ -45,7 +45,7 @@ export default function WeeklyDrop() {
                   </div>
                 </div>
               </div>
-              <p className="text-sm font-bold uppercase tracking-[0.16em] text-bravura-blue">
+              <p className="text-sm font-bold uppercase tracking-[0.16em] text-bravura-green">
                 {product.category}
               </p>
               <h3 className="mt-2 font-display text-2xl font-black uppercase text-bravura-ice">

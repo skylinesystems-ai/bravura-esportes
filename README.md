@@ -16,7 +16,7 @@ Depois abra a URL exibida pelo Vite. Neste projeto, o script usa `http://localho
 ```text
 src/
   assets/
-    bravura-arena-portal.png
+    bravura-stadium-store.png
   components/
     BrandLogo.jsx
     IntroScreen.jsx

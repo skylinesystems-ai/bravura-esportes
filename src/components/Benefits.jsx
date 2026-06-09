@@ -32,7 +32,7 @@ export default function Benefits() {
                 viewport={{ once: true, margin: "-80px" }}
                 transition={{ duration: 0.42, delay: index * 0.04 }}
               >
-                <div className="grid h-12 w-12 shrink-0 place-items-center border border-bravura-blue/30 bg-bravura-blue/10 text-bravura-blue">
+                <div className="grid h-12 w-12 shrink-0 place-items-center border border-bravura-green/30 bg-bravura-green/10 text-bravura-green">
                   <Icon size={24} />
                 </div>
                 <h3 className="font-display text-base font-bold uppercase leading-snug text-bravura-ice">

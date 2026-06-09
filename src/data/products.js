@@ -17,7 +17,7 @@ export const products = [
     wholesalePrice: "R$ 180 a partir de 2 peças",
     sizes: ["P", "M", "G", "GG"],
     tag: "Novo Drop",
-    accent: "#00FF88",
+    accent: "#12B76A",
   },
   {
     id: "flamengo-personalizada",
@@ -47,7 +47,7 @@ export const products = [
     wholesalePrice: "R$ 100 a partir de 2 peças",
     sizes: ["P", "M", "G", "GG"],
     tag: "Performance",
-    accent: "#00D9FF",
+    accent: "#12B76A",
   },
   {
     id: "retro-premium",
@@ -57,7 +57,7 @@ export const products = [
     wholesalePrice: "R$ 170 a partir de 2 peças",
     sizes: ["P", "M", "G", "GG"],
     tag: "Retrô",
-    accent: "#8A2BFF",
+    accent: "#C95700",
   },
   {
     id: "argentina",
@@ -67,7 +67,7 @@ export const products = [
     wholesalePrice: "R$ 180 a partir de 2 peças",
     sizes: ["P", "M", "G", "GG"],
     tag: "Internacional",
-    accent: "#00D9FF",
+    accent: "#F5F7FA",
   },
   {
     id: "real-madrid",

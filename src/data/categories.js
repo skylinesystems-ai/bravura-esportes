@@ -18,14 +18,14 @@ export const categories = [
     name: "Times Internacionais",
     icon: "Globe2",
     description: "Modelos elite de clubes globais para torcer sem fronteiras.",
-    accent: "blue",
+    accent: "green",
   },
   {
     id: "conjuntos-dry-fit",
     name: "Conjuntos Dry Fit",
     icon: "Dumbbell",
     description: "Performance, conforto e visual esportivo para o dia a dia.",
-    accent: "purple",
+    accent: "orange",
   },
   {
     id: "camisas-retro",

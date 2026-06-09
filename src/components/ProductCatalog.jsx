@@ -9,7 +9,7 @@ function ProductCard({ product, index }) {
   return (
     <motion.article
       layout
-      className="holo-card group flex h-full flex-col p-4"
+      className="holo-card product-card group flex h-full flex-col p-4"
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, scale: 0.95 }}
@@ -24,11 +24,11 @@ function ProductCard({ product, index }) {
       >
         <div className="absolute inset-0 product-visual-grid" />
         <div className="relative z-10 grid h-full place-items-center">
-          <div className="grid h-24 w-24 place-items-center border border-white/15 bg-black/35 shadow-[0_0_32px_rgba(0,217,255,.16)] backdrop-blur-md">
+          <div className="jersey-frame grid h-24 w-24 place-items-center">
             <Shirt size={52} style={{ color: product.accent }} />
           </div>
         </div>
-        <span className="absolute left-4 top-4 inline-flex items-center gap-2 border border-white/15 bg-black/55 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.14em] text-bravura-ice backdrop-blur-xl">
+        <span className="absolute left-4 top-4 inline-flex items-center gap-2 border border-white/15 bg-black/60 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.14em] text-bravura-ice backdrop-blur-xl">
           <Sparkles size={13} style={{ color: product.accent }} />
           {product.tag}
         </span>
@@ -36,7 +36,7 @@ function ProductCard({ product, index }) {
 
       <div className="flex flex-1 flex-col">
         <div className="mb-4">
-          <p className="mb-2 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-bravura-blue">
+          <p className="mb-2 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-bravura-green">
             <Tag size={14} />
             {product.category}
           </p>
@@ -60,7 +60,7 @@ function ProductCard({ product, index }) {
           {product.sizes.map((size) => (
             <span
               key={size}
-              className="grid h-9 min-w-9 place-items-center border border-white/10 bg-white/[0.04] px-2 text-xs font-bold text-bravura-ice"
+              className="grid h-9 min-w-9 place-items-center border border-white/10 bg-white/[0.06] px-2 text-xs font-bold text-bravura-ice"
             >
               {size}
             </span>
@@ -105,23 +105,23 @@ export default function ProductCatalog() {
     <section id="catalogo" className="section-pad">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="section-heading">
-          <span>Catálogo Holográfico</span>
-          <h2>Escolha a peça e chame no WhatsApp.</h2>
+          <span>Bravura Store</span>
+          <h2>Catálogo de camisas para dia de jogo.</h2>
           <p>
-            Busca rápida, filtros por categoria e cards preparados para venda no
-            varejo ou atacado.
+            Encontre seleções, clubes, dry fit, retrô e kits com busca rápida,
+            filtros e compra direta pelo WhatsApp.
           </p>
         </div>
 
         <div className="mb-8 grid gap-4 lg:grid-cols-[1fr_auto] lg:items-center">
           <label className="relative block">
-            <Search className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-bravura-blue" size={20} />
+            <Search className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-bravura-orange" size={20} />
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               type="search"
               placeholder="Buscar por produto, categoria ou tag"
-              className="w-full border border-white/10 bg-white/[0.04] py-4 pl-12 pr-4 text-bravura-ice outline-none backdrop-blur-xl transition placeholder:text-bravura-metal/75 focus:border-bravura-orange focus:shadow-neon"
+              className="w-full border border-white/10 bg-white/[0.05] py-4 pl-12 pr-4 text-bravura-ice outline-none backdrop-blur-xl transition placeholder:text-bravura-metal/75 focus:border-bravura-orange focus:shadow-stadium"
             />
           </label>
 
@@ -138,7 +138,7 @@ export default function ProductCatalog() {
                 className={`shrink-0 border px-4 py-3 text-xs font-bold uppercase tracking-[0.14em] transition ${
                   activeFilter === filter
                     ? "border-bravura-orange bg-bravura-orange text-bravura-black shadow-neon"
-                    : "border-white/10 bg-white/[0.04] text-bravura-metal hover:border-bravura-blue hover:text-bravura-ice"
+                    : "border-white/10 bg-white/[0.05] text-bravura-metal hover:border-bravura-green hover:text-bravura-ice"
                 }`}
               >
                 {filter}

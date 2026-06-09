@@ -25,7 +25,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="font-display text-sm font-bold uppercase tracking-[0.18em] text-bravura-blue">
+            <h3 className="font-display text-sm font-bold uppercase tracking-[0.18em] text-bravura-green">
               Contato
             </h3>
             <ul className="mt-4 space-y-3 text-sm text-bravura-metal">
@@ -34,7 +34,7 @@ export default function Footer() {
                 WhatsApp: 559293975581
               </li>
               <li className="flex items-center gap-2">
-                <Instagram size={16} className="text-bravura-purple" />
+                <Instagram size={16} className="text-bravura-orange" />
                 Instagram: @bravuraesportes
               </li>
               <li className="flex items-start gap-2">

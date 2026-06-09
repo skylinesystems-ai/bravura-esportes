@@ -6,13 +6,13 @@ export default function InstagramSection() {
     <section className="section-pad">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
-          className="relative overflow-hidden border border-bravura-purple/30 bg-bravura-graphite/60 p-7 shadow-violet backdrop-blur-2xl sm:p-10 lg:p-12"
+          className="relative overflow-hidden border border-bravura-orange/25 bg-bravura-graphite/70 p-7 shadow-stadium backdrop-blur-2xl sm:p-10 lg:p-12"
           initial={{ opacity: 0, y: 26 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.55 }}
         >
-          <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(138,43,255,.18),transparent_42%,rgba(255,122,0,.16))]" />
+          <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(18,183,106,.14),transparent_42%,rgba(255,122,0,.18))]" />
           <div className="relative z-10 grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
               <span className="eyebrow">Instagram</span>

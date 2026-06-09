@@ -24,6 +24,7 @@ export default {
         neon: "0 0 24px rgba(255, 122, 0, 0.36), 0 0 44px rgba(0, 217, 255, 0.16)",
         cyan: "0 0 28px rgba(0, 217, 255, 0.28)",
         violet: "0 0 30px rgba(138, 43, 255, 0.28)",
+        stadium: "0 18px 48px rgba(0, 0, 0, 0.42), 0 0 28px rgba(255, 122, 0, 0.18)",
       },
       backgroundImage: {
         "hud-grid":

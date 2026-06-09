@@ -13,9 +13,9 @@ const iconMap = {
 
 const accentStyles = {
   orange: "text-bravura-orange shadow-[0_0_22px_rgba(255,122,0,.28)]",
-  blue: "text-bravura-blue shadow-[0_0_22px_rgba(0,217,255,.28)]",
-  purple: "text-bravura-purple shadow-[0_0_22px_rgba(138,43,255,.28)]",
-  green: "text-bravura-green shadow-[0_0_22px_rgba(0,255,136,.28)]",
+  blue: "text-bravura-green shadow-[0_0_22px_rgba(18,183,106,.22)]",
+  purple: "text-bravura-orange shadow-[0_0_22px_rgba(255,122,0,.22)]",
+  green: "text-bravura-green shadow-[0_0_22px_rgba(18,183,106,.24)]",
 };
 
 export default function Categories() {
@@ -23,8 +23,8 @@ export default function Categories() {
     <section id="categorias" className="section-pad">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="section-heading">
-          <span>Setores da Arena</span>
-          <h2>Categorias para cada tipo de jogo.</h2>
+          <span>Vitrine da Arena</span>
+          <h2>Categorias para cada tipo de torcedor.</h2>
           <p>
             Escolha seu estilo: torcida, treino, coleção, presente ou revenda.
           </p>
