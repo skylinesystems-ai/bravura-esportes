@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { MessageCircle, Search, Shirt, SlidersHorizontal, Sparkles, Tag } from "lucide-react";
 import { useMemo, useState } from "react";
 import { productWhatsAppLink, products } from "../data/products.js";
@@ -148,11 +148,9 @@ export default function ProductCatalog() {
         </div>
 
         <motion.div layout className="grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
-          <AnimatePresence>
-            {filteredProducts.map((product, index) => (
-              <ProductCard key={product.id} product={product} index={index} />
-            ))}
-          </AnimatePresence>
+          {filteredProducts.map((product, index) => (
+            <ProductCard key={product.id} product={product} index={index} />
+          ))}
         </motion.div>
 
         {filteredProducts.length === 0 && (
